@@ -22,7 +22,8 @@ app.command("/wasd-help",async({ command, ack, respond}) => {
     await respond({ text:
     `Available Commands:
 /wasd-ping - Check bot latency
-/wasd-catfact - Get a cat fact`
+/wasd-catfact - Get a cat fact
+/wasd-joke - Gives a joke`
     });
 });
 
